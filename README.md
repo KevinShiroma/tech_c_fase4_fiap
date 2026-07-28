@@ -88,6 +88,46 @@ Monitoramento constante da evolução clínica do paciente durante a internaçã
 
 ---
 
+## 📊 Resultados Obtidos e Exemplos de Anomalias
+Análise Postural em Vídeo <br>
+O sistema rastreia protocolos cirúrgicos/fisioterápicos e documenta automaticamente as violações posturais (mãos caindo abaixo da linha dos ombros).
+
+```
+=== RELATÓRIO DE POSTURA: sample_video1.mp4 ===
+Total de frames: 5249
+Total de falhas: 8
+
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 40.17 (Frame 1205)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 61.37 (Frame 1841)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 74.37 (Frame 2231)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 88.97 (Frame 2669)
+...
+```
+### Transcrição de Áudio e Análise de Sentimento
+A transcrição médica é processada para classificar a polaridade e confiança do discurso, permitindo identificar possíveis queixas severas ou evoluções positivas no relato.
+
+```
+[POSITIVE] And you are new to me, correct? Perfect. Tell me what brings you to see me.
+Pos: 0.88 | Neu: 0.12 | Neg: 0.00
+
+[NEGATIVE] The main issue with that is that it's very hard to get a bump that big out of a tiny hole, so you often end up having to make a line.
+Pos: 0.00 | Neu: 0.00 | Neg: 1.00
+
+[NEGATIVE] Since it is bothersome, I can't type.
+Pos: 0.00 | Neu: 0.15 | Neg: 0.85
+```
+
+### Monitoramento de Sinais Vitais
+O fluxo simulado reflete medições segundo a segundo. Conforme demonstrado no painel interativo (veja a referência image_ee34e0.png), o sistema acusa anomalias instantaneamente na UI, tais como:
+
+Paciente 18: Alerta de Temperatura Crítica (33.4 °C).
+
+Paciente 5: Alerta de Saturação de O2 Anormal (94%).
+
+Demais pacientes: Monitoramento contínuo em status verde (✅ Normal).
+
+<img width="1819" height="870" alt="image" src="https://github.com/user-attachments/assets/ffa75383-5ada-4699-88b7-6db37e74e924" />
+
 ## 📂 Estrutura do Projeto
 
 ```text
