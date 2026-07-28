@@ -89,7 +89,7 @@ Monitoramento constante da evolução clínica do paciente durante a internaçã
 ---
 
 ## 📊 Resultados Obtidos e Exemplos de Anomalias
-Análise Postural em Vídeo <br>
+### Análise Postural em Vídeo <br>
 O sistema rastreia protocolos cirúrgicos/fisioterápicos e documenta automaticamente as violações posturais (mãos caindo abaixo da linha dos ombros).
 
 ```
