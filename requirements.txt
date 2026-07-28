@@ -1,0 +1,11 @@
+azure-storage-blob
+azure-cognitiveservices-speech
+azure-ai-textanalytics
+python-dotenv
+opencv-python
+mediapipe
+ultralytics
+tqdm
+pandas
+scikit-learn
+streamlit
