@@ -1,0 +1,12 @@
+=== RELATÓRIO DE POSTURA: sample_video1.mp4 ===
+Total de frames: 5249
+Total de falhas: 8
+
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 40.17 (Frame 1205)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 61.37 (Frame 1841)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 74.37 (Frame 2231)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 88.97 (Frame 2669)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 99.57 (Frame 2987)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 108.50 (Frame 3255)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 141.83 (Frame 4255)
+[FALHA] As mãos caíram abaixo da linha dos ombros no segundo 171.20 (Frame 5136)
