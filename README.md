@@ -3,7 +3,7 @@
 Este repositório contém o projeto da Fase 4 do Tech Challenge (Pós-Tech IA para Devs). O objetivo desta etapa é evoluir a instituição médica através da implementação de um sistema de monitoramento contínuo de pacientes, utilizando dados multimodais (áudio, vídeo e texto) processados em nuvem para identificar sinais precoces de risco.
 
 ## 📺 Demonstração do Projeto
-* **Link para o YouTube:** [INSERIR LINK AQUI]
+* **Link para o YouTube:** https://youtu.be/vaTYJYOCD7A
 * **Apresentação:** Demonstração prática do processamento multimodal, incluindo análise de postura em vídeo, transcrição e detecção de sentimentos em áudios, além do monitoramento e alerta de anomalias em sinais vitais via dashboard.
 
 ## 🛠️ Arquitetura do projeto
